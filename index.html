@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nancy Bethala</title>
+    <title>Nancy Bethala-Frounjian</title>
     <style>
         body { 
             font-family: Georgia, serif;
-            max-width: 700px;
+            max-width: 900px;
             margin: 0;
-            padding: 80px 20px;
+            padding: 80px 40px;
             line-height: 1.8;
             color: #2c3e50;
             background: linear-gradient(135deg, #f8f9fa 0%, #f0f4f8 100%);
@@ -44,13 +44,22 @@
         .section { 
             margin: 40px 0;
             background: white;
-            padding: 30px;
+            padding: 40px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             border-left: 4px solid #0066cc;
         }
         .section:nth-child(even) {
             border-left-color: #00a8e8;
+        }
+        .superpower {
+            font-size: 1.1em;
+            font-weight: 500;
+            color: #0066cc;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f0f8ff;
+            border-left: 4px solid #0066cc;
         }
         ul {
             margin-left: 20px;
@@ -59,7 +68,7 @@
             margin-bottom: 12px;
         }
         .container {
-            max-width: 700px;
+            max-width: 900px;
             margin: 0 auto;
         }
     </style>
@@ -69,7 +78,7 @@
 <div class="container">
     <h1>Nancy Bethala</h1>
     <div class="meta">
-        AI Infrastructure Engineer | Boston, MA<br>
+        Infrastructure & Systems Engineer | AI, Backend, Distributed Systems | Boston, MA<br>
         <a href="https://github.com/scalable-ml-systems">GitHub</a> | 
         <a href="https://linkedin.com/in/nbethala">LinkedIn</a> | 
         <a href="https://stackbytes.beehiiv.com/">StackBytes</a> | 
@@ -78,23 +87,28 @@
 
     <div class="section">
         <p>
-        For a decade, I prioritized my autistic child's medical care—100+ hospital trips, special needs coordination, 24/7 caregiving. During that time, I built a real estate portfolio (6 properties, gold asset). 
+        I spent 12+ years (2003-2015) building distributed systems for enterprise—databases, migrations, workforce management, hybrid cloud infrastructure. Then I took time off to raise a family and build a business.
         </p>
 
         <p>
-        Two years ago, I reskilled in AI infrastructure because I wanted to work on problems that matter at scale. I spent 12+ years (2003-2015) building distributed systems for enterprise—databases, migrations, workforce management, hybrid cloud. Now I'm back doing what I love: infrastructure that scales.
+        Two years ago, I reskilled in AI infrastructure because I wanted to work on problems that matter at scale. I'm back doing what I do best: shipping systems that scale.
         </p>
 
+        <div class="superpower">
+        I think in systems and visuals. I debug methodically. I ship real work.
+        </div>
+
         <p>
-        I think in systems and visuals. I debug methodically. I ship real work. Right now I'm building a fraud-detection agent platform (Python/Go, Ray, Kafka) and contributing to vLLM—fixed a critical bug in DeepSeek-R1 structured-output detection with speculative decoding (PR #34978).
+        Right now I'm building a fraud-detection agent platform (Python/Go, Ray, Kafka) and contributing to vLLM Project V1 —fixed a critical bug in DeepSeek-R1 structured-output detection with speculative decoding (PR #34978).
         </p>
     </div>
 
     <div class="section">
         <h2>What I'm building</h2>
-        <ul>
+               <ul>
+         <li><a href="https://github.com/scalable-ml-systems/llm-inference-platform">Distributed LLM Inference Platform</a> – vLLM + AWS + Kubernetes + multimodal inference orchestration</li>
         <li><a href="https://github.com/scalable-ml-systems/event-driven-cognitive-runtime">Event-Driven Cognitive Runtime</a> – Kafka + vLLM + multimodal inference orchestration</li>
-        <li><a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU-Accelerated MLOps Platform</a> – EKS + Triton + autoscaling</li>
+                <li><a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU-Accelerated MLOps Platform</a> – EKS + Triton + autoscaling</li>
         <li><a href="https://github.com/vllm-project/vllm/pull/34978">vLLM Contributions</a> – DeepSeek-R1 structured output + speculative decoding</li>
         </ul>
     </div>
@@ -106,7 +120,7 @@
 
     <div class="section">
         <h2>Outside of work</h2>
-        <p>I read research papers on distributed systems and inference optimization. I write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/">StackBytes</a>. I travel to think clearly—new places reset perspective.</p>
+        <p>I read research papers on AI, Quantum and inference optimization. I write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/">StackBytes</a>. I travel to think clearly—new places reset perspective.</p>
     </div>
 </div>
 

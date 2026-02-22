@@ -1,133 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Nancy Bethala – Senior Backend & Distributed Systems Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta charset="UTF-8">
+   <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nancy Bethala</title>
+
+
+   <style>
+       :root {
+           --text: #1a1a1a;
+           --subtle: #555;
+           --accent: #0057b8;
+           --bg: #ffffff;
+           --card: #f7f9fc;
+           --border: #e5e7eb;
+       }
+
+
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+
+       body {
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+           background: var(--bg);
+           color: var(--text);
+           line-height: 1.7;
+       }
+
+
+       .container {
+           max-width: 820px;
+           margin: 0 auto;
+           padding: 60px 28px;
+       }
+
+
+       h1 {
+           font-size: 2.4rem;
+           font-weight: 700;
+           margin-bottom: 6px;
+           letter-spacing: -0.5px;
+       }
+
+
+       .tagline {
+           font-size: 1rem;
+           color: var(--subtle);
+           margin-bottom: 28px;
+       }
+
+
+       .links {
+           margin-bottom: 48px;
+       }
+
+
+       .links a {
+           color: var(--accent);
+           text-decoration: none;
+           margin-right: 22px;
+           font-size: 0.95rem;
+           font-weight: 500;
+       }
+
+
+       .links a:hover {
+           text-decoration: underline;
+       }
+
+
+       .content p {
+           margin-bottom: 18px;
+           font-size: 1rem;
+           color: var(--text);
+       }
+
+
+       .superpower {
+           background: var(--card);
+           border-left: 4px solid var(--accent);
+           padding: 18px 22px;
+           margin: 28px 0;
+           font-size: 1rem;
+           font-weight: 600;
+           color: var(--accent);
+           border-radius: 4px;
+       }
+
+
+       h2 {
+           font-size: 1.25rem;
+           font-weight: 700;
+           margin-top: 40px;
+           margin-bottom: 16px;
+           letter-spacing: -0.3px;
+       }
+
+
+       ul {
+           list-style: none;
+           padding-left: 0;
+       }
+
+
+       li {
+           margin-bottom: 14px;
+           font-size: 1rem;
+       }
+
+
+       li a {
+           color: var(--accent);
+           text-decoration: none;
+           font-weight: 500;
+       }
+
+
+       li a:hover {
+           text-decoration: underline;
+       }
+
+
+       .skills {
+           margin-bottom: 10px;
+           font-size: 1rem;
+           color: var(--text);
+       }
+   </style>
 </head>
+
+
 <body>
-  <!-- HERO / TOP SECTION -->
-  <header class="hero">
-    <h1>Senior Backend &amp; Distributed Systems Engineer</h1>
-    <p class="hero-subtitle">
-      AI Infrastructure &bull; Distributed Systems &bull; Microservices &bull; LLM Pipelines
-    </p>
-    <p class="hero-identity">
-      I’m a top-down, systems-first thinker. I visualize architectures, debug with precision,
-      and ship reliable, production-ready work.
-    </p>
-  </header>
+<div class="container">
 
-  <main>
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        I spent more than a decade (2003–2015) building large-scale distributed systems across
-        enterprise environments—databases, multi-terabyte migrations, workforce management
-        platforms, and hybrid cloud infrastructure.
-      </p>
-      <p>
-        After stepping away to raise a family and run a business, I returned with a clearer sense
-        of what I wanted to build: systems that matter at scale.
-      </p>
-      <p>
-        Two years ago, I reskilled into AI infrastructure. I returned to my core strengths—designing
-        architectures, debugging with precision, and shipping reliable, production-ready systems.
-        My work now spans GPU inference, distributed microservices, data pipelines, and open-source
-        contributions to projects like vLLM.
-      </p>
-      <p>
-        I think in systems and visuals. I learn top-down. I debug methodically. I ship real work.
-      </p>
-    </section>
 
-    <!-- WHAT I DO / FOCUS SECTION -->
-    <section id="what-i-do" class="section">
-      <h2>What I Do</h2>
+   <h1>Nancy Bethala-Frounjian</h1>
 
-      <h3>Backend Engineering</h3>
-      <p>
-        I design and build microservices, distributed systems, and event-driven architectures with
-        a focus on reliability, observability, and clean, testable code.
-      </p>
 
-      <h3>AI Infrastructure</h3>
-      <p>
-        I work across GPU inference, LLM runtimes, and high-performance data flows—optimizing for
-        latency, throughput, and cost.
-      </p>
+   <div class="tagline">
+       Senior Backend & Distributed Systems Engineer • Boston, MA
+   </div>
 
-      <h3>Distributed Systems &amp; Data Pipelines</h3>
-      <p>
-        I build and operate systems that move data across Kafka, Redis, Ray, and cloud-native
-        environments with correctness and resilience.
-      </p>
 
-      <h3>Debugging &amp; Reliability</h3>
-      <p>
-        I’m at my best when diagnosing complex failures across layers—networking, concurrency,
-        scheduling, storage, and runtime behavior.
-      </p>
-    </section>
+   <div class="links">
+       <a href="https://github.com/scalable-ml-systems">GitHub</a>
+       <a href="https://linkedin.com/in/nbethala">LinkedIn</a>
+       <a href="https://stackbytes.beehiiv.com/">StackBytes</a>
+       <a href="mailto:nfrounjian@gmail.com">Email</a>
+   </div>
 
-    <!-- INTERESTS SECTION -->
-    <section id="interests" class="section">
-      <h2>Interests</h2>
-      <p>
-        I study AI and quantum research, follow Google’s engineering blogs, and write about AI
-        infrastructure on StackBytes. I travel for fun and to spend meaningful time with my family.
-      </p>
-    </section>
 
-    <!-- PROJECTS / OPEN SOURCE SECTION -->
-    <section id="projects" class="section">
-      <h2>Projects &amp; Open Source</h2>
+   <div class="content">
 
-      <article class="project">
-        <h3>vLLM — Contributor</h3>
-        <p>
-          DeepSeek-R1 structured-output fix (PR #34978). Focused on correctness, inference behavior,
-          and runtime reliability.
-        </p>
-      </article>
 
-      <article class="project">
-        <h3>GPU Inference Platform</h3>
-        <p>
-          Designed and deployed a production-grade inference stack using AWS, EKS, Triton, and vLLM
-          with full observability and autoscaling.
-        </p>
-      </article>
+       <p>
+           I spent 12+ years (2003–2015) building distributed systems across enterprise environments - databases, data migrations, workforce management platforms, and hybrid cloud infrastructure. After stepping away to raise a family and run a business, I returned with a clear focus: work on systems that matter at scale.
+       </p>
 
-      <article class="project">
-        <h3>Fraud-Detection Agent Platform</h3>
-        <p>
-          Built distributed microservices and data pipelines using Python, Go, Ray, Kafka, and
-          multi-cloud infrastructure.
-        </p>
-      </article>
-    </section>
 
-    <!-- RESUME SECTION -->
-    <section id="resume" class="section">
-      <h2>Resume</h2>
-      <p>
-        My work spans backend engineering, distributed systems, and AI infrastructure. I build
-        reliable systems, debug complex failures, and ship production-ready software.
-      </p>
-      <p>
-        <a href="/NancyBethala_Resume.pdf" target="_blank" rel="noopener noreferrer">
-          Download Resume
-        </a>
-      </p>
-    </section>
-  </main>
+       <p>
+           Two years ago, I reskilled into AI infrastructure. I returned to the work that has defined my career: designing architectures, debugging with precision, and shipping reliable, production‑ready systems.
+       </p>
 
-  <!-- FOOTER / TAGLINE -->
-  <footer class="footer">
-    <p>Systems thinker. Methodical debugger. Builder of reliable software.</p>
-  </footer>
+
+       <div class="superpower">
+           I’m a top‑down, systems‑first thinker. I visualize architectures, debug with precision, and ship reliable, production‑ready work.
+       </div>
+
+
+       <p>
+           I’m currently building a fraud‑detection agent platform (Python/Go, Ray, Kafka) and contributing to vLLM. Recently fixed a DeepSeek‑R1 structured‑output detection bug in speculative decoding (PR #34978).
+       </p>
+
+
+       <h2>What I'm building</h2>
+       <ul>
+           <li><a href="https://github.com/scalable-ml-systems/llm-inference-platform">Distributed LLM Inference Platform</a> — vLLM + AWS + Kubernetes + multimodal orchestration</li>
+           <li><a href="https://github.com/scalable-ml-systems/event-driven-cognitive-runtime">Event‑Driven Cognitive Runtime</a> — Kafka + vLLM + multimodal inference</li>
+           <li><a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU‑Accelerated MLOps Platform</a> — EKS + Triton + autoscaling</li>
+           <li><a href="https://github.com/vllm-project/vllm/pull/34978">vLLM Contributions</a> — DeepSeek‑R1 structured output + speculative decoding</li>
+       </ul>
+
+
+       <h2>Skills</h2>
+       <p class="skills">
+           Python, Go • vLLM, Triton, Ray, Kubernetes • AWS, Azure, GCP • OpenTelemetry, Prometheus
+       </p>
+
+
+       <h2>Outside of work</h2>
+       <p>
+           I read research papers on AI and quantum computing, follow Google’s engineering blogs, and write about AI infrastructure on StackBytes. I travel for fun and to spend time with my family.
+       </p>
+
+
+   </div>
+</div>
 </body>
 </html>
-

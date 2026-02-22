@@ -1,122 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nancy Bethala</title>
+
     <style>
+        :root {
+            --text: #1a1a1a;
+            --subtle: #555;
+            --accent: #0057b8;
+            --bg: #ffffff;
+            --card: #f7f9fc;
+            --border: #e5e7eb;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
-        body { 
+
+        body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            color: #222;
-            background: #fafafa;
-            line-height: 1.6;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
         }
-        
+
         .container {
-            max-width: 750px;
+            max-width: 820px;
             margin: 0 auto;
-            padding: 50px 25px;
+            padding: 60px 28px;
         }
-        
+
         h1 {
-            font-size: 2em;
+            font-size: 2.4rem;
             font-weight: 700;
-            margin-bottom: 8px;
-            color: #000;
+            margin-bottom: 6px;
+            letter-spacing: -0.5px;
         }
-        
+
         .tagline {
-            font-size: 0.9em;
-            color: #666;
-            margin-bottom: 16px;
+            font-size: 1rem;
+            color: var(--subtle);
+            margin-bottom: 28px;
         }
-        
+
         .links {
-            margin-bottom: 40px;
-            font-size: 0.9em;
+            margin-bottom: 48px;
         }
-        
+
         .links a {
-            color: #0066cc;
+            color: var(--accent);
             text-decoration: none;
-            margin-right: 16px;
+            margin-right: 22px;
+            font-size: 0.95rem;
+            font-weight: 500;
         }
-        
+
         .links a:hover {
             text-decoration: underline;
         }
-        
-        .content {
-            color: #333;
-            line-height: 1.7;
-        }
-        
+
         .content p {
-            margin-bottom: 14px;
-            font-size: 0.95em;
+            margin-bottom: 18px;
+            font-size: 1rem;
+            color: var(--text);
         }
-        
+
         .superpower {
-            background: #f0f7ff;
-            border-left: 3px solid #0066cc;
-            padding: 18px 20px;
-            margin: 20px 0;
-            font-size: 0.95em;
-            font-weight: 500;
-            color: #0066cc;
+            background: var(--card);
+            border-left: 4px solid var(--accent);
+            padding: 18px 22px;
+            margin: 28px 0;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent);
+            border-radius: 4px;
         }
-        
+
         h2 {
-            font-size: 1.1em;
+            font-size: 1.25rem;
             font-weight: 700;
-            margin-top: 30px;
-            margin-bottom: 14px;
-            color: #000;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
         }
-        
+
         ul {
             list-style: none;
-            margin: 0;
-            padding: 0;
+            padding-left: 0;
         }
-        
+
         li {
-            margin-bottom: 12px;
-            font-size: 0.95em;
-            color: #333;
+            margin-bottom: 14px;
+            font-size: 1rem;
         }
-        
+
         li a {
-            color: #0066cc;
+            color: var(--accent);
             text-decoration: none;
+            font-weight: 500;
         }
-        
+
         li a:hover {
             text-decoration: underline;
         }
-        
-        .dash {
-            color: #999;
-            margin: 0 6px;
+
+        .skills {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: var(--text);
         }
     </style>
 </head>
-<body>
 
+<body>
 <div class="container">
-    
+
     <h1>Nancy Bethala-Frounjian</h1>
-    
+
     <div class="tagline">
-        Infrastructure & Systems Engineer | AI, Backend, Distributed Systems | Boston, MA
+        Infrastructure & Systems Engineer • AI, Backend, Distributed Systems • Boston, MA
     </div>
-    
+
     <div class="links">
         <a href="https://github.com/scalable-ml-systems">GitHub</a>
         <a href="https://linkedin.com/in/nbethala">LinkedIn</a>
@@ -125,38 +133,42 @@
     </div>
 
     <div class="content">
+
         <p>
-        I spent 12+ years (2003-2015) building distributed systems for enterprise—databases, migrations, workforce management, hybrid cloud infrastructure. Then I took time off to raise a family and build a business.
+            I spent 12+ years (2003–2015) building distributed systems for enterprise—databases, migrations, workforce management, hybrid cloud infrastructure. Then I took time off to raise a family and build a business.
         </p>
 
         <p>
-        Two years ago, I reskilled in AI infrastructure because I wanted to work on problems that matter at scale. I'm back doing what I do best: shipping systems that scale.
+            Two years ago, I reskilled in AI infrastructure because I wanted to work on problems that matter at scale. I'm back doing what I do best: shipping systems that scale.
         </p>
 
         <div class="superpower">
-        I think in systems and visuals. I debug methodically. I ship real work.
+            I think in systems and visuals. I debug methodically. I ship real work.
         </div>
 
         <p>
-        Right now I'm building a fraud-detection agent platform (Python/Go, Ray, Kafka) and contributing to vLLM—fixed a critical bug in DeepSeek-R1 structured-output detection with speculative decoding (PR #34978).
+            Right now I'm building a fraud-detection agent platform (Python/Go, Ray, Kafka) and contributing to vLLM—fixed a critical bug in DeepSeek-R1 structured-output detection with speculative decoding (PR #34978).
         </p>
 
         <h2>What I'm building</h2>
         <ul>
-            <li><a href="https://github.com/scalable-ml-systems/llm-inference-platform">Distributed LLM Inference Platform</a> – vLLM + AWS + Kubernetes + multimodal orchestration</li>
-            <li><a href="https://github.com/scalable-ml-systems/event-driven-cognitive-runtime">Event-Driven Cognitive Runtime</a> – Kafka + vLLM + multimodal inference</li>
-            <li><a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU-Accelerated MLOps Platform</a> – EKS + Triton + autoscaling</li>
-            <li><a href="https://github.com/vllm-project/vllm/pull/34978">vLLM Contributions</a> – DeepSeek-R1 structured output + speculative decoding</li>
+            <li><a href="https://github.com/scalable-ml-systems/llm-inference-platform">Distributed LLM Inference Platform</a> — vLLM + AWS + Kubernetes + multimodal orchestration</li>
+            <li><a href="https://github.com/scalable-ml-systems/event-driven-cognitive-runtime">Event-Driven Cognitive Runtime</a> — Kafka + vLLM + multimodal inference</li>
+            <li><a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU-Accelerated MLOps Platform</a> — EKS + Triton + autoscaling</li>
+            <li><a href="https://github.com/vllm-project/vllm/pull/34978">vLLM Contributions</a> — DeepSeek-R1 structured output + speculative decoding</li>
         </ul>
 
         <h2>Skills</h2>
-        <p>Python, Go | vLLM, Triton, Ray, Kubernetes | AWS, Azure, GCP | OpenTelemetry, Prometheus</p>
+        <p class="skills">
+            Python, Go • vLLM, Triton, Ray, Kubernetes • AWS, Azure, GCP • OpenTelemetry, Prometheus
+        </p>
 
         <h2>Outside of work</h2>
-        <p>I read research papers on AI, Quantumand inference optimization. I write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/">StackBytes</a>. I travel to think clearly—new places reset perspective.</p>
+        <p>
+            I read research papers on AI, Quantum and inference optimization. I write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/">StackBytes</a>. I travel to think clearly—new places reset perspective.
+        </p>
+
     </div>
-
 </div>
-
 </body>
 </html>

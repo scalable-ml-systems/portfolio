@@ -364,9 +364,8 @@
         }
 
         .projects-list {
-           display: grid;
-           grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-           gap: 2rem;
+            display: grid;
+            gap: 1.5rem;
         }
 
         .project-item {
@@ -452,7 +451,7 @@
         </div>
 
         <header id="top">
-            <h1>Nancy Bethala-Frounjian</h1>
+            <h2>Nancy Bethala-Frounjian</h2>
             <p class="subtitle"> Systems Engineer • Distributed Systems • High-availability Infrastructure</p>
             <p class="intro-text">I'm a systems architect with a long track record of building backend and distributed systems that have to stay reliable under real‑world load. My background spans enterprise platforms engineered for high availability and the modern infrastructure that powers large‑scale AI.</p>
            </header>
@@ -544,11 +543,8 @@
                 <div class="skill-item"><p><strong>Orchestration & Cloud</strong><br>GPU Node Affinity | AWS (VPC, IAM, Auto-scaling) | Terraform (IaC) | Ray | Helm/p></div>
                 <div class="skill-item"><p><strong>Distributed Systems & Backend</strong><br>Python | Go | FastAPI | Kafka Event-driven Architecture | Message Queues (RabbitMQ/SQS)</p></div>
                 <div class="skill-item"><p><strong>Observability & Reliability</strong><br>NVIDIA DCGM | Prometheus | Grafana | Loki | OpenTelemetry | Root-Cause Analysis (RCA)| SLA/SLO Management | Incident Response</p></div>
-                <div class="skill-item"><p><strong>Data Systems</strong><br>PostgreSQL | DynamoDB | Redis | Multi-terabyte Migrations | Hybrid-Cloud Data Architecture | ETL/Data Pipelines | NAS/Backup Infrastructure</p></div>              
-            </p>
-        </div> 
-       
-        </div>
+                <div class="skill-item"><p><strong>Data Systems</strong><br>PostgreSQL | DynamoDB | Redis | Multi-terabyte Migrations | Hybrid-Cloud Data Architecture | ETL/Data Pipelines | NAS/Backup Infrastructure</p></div>              </p></div>
+            </div>
         </section>
 
         <section class="section">

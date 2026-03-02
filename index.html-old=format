@@ -451,11 +451,10 @@
         </div>
 
         <header id="top">
-            <h1>Nancy Bethala-Frounjian</h1>
-            <p class="subtitle">> systems architect • distributed systems • high-availability infrastructure</p>
-            <p class="intro-text">I'm a systems architect with a long track record of building backend and distributed systems that have to stay reliable under real‑world load. My background spans enterprise platforms engineered for high availability and the modern infrastructure that powers large‑scale AI.</p>
-            <p class="intro-text">I focus on the parts of a system that determine whether it performs, scales, and stays predictable—execution paths, orchestration layers, data movement, and failure behavior. My work is grounded in a systems‑first mindset: understand the constraints, design for reliability, and make complex infrastructure behave consistently at scale.</p>
-        </header>
+            <h2>Nancy Bethala-Frounjian</h2>
+            <p class="subtitle"> Systems Engineer • Distributed Systems • High-availability Infrastructure</p>
+            <p class="intro-text">I'm a systems engineer with a long track record of building backend and distributed systems that have to stay reliable under real‑world load. My background spans enterprise platforms engineered for high availability and the modern infrastructure that powers large‑scale AI.</p>
+               </header>
 
         <section class="foundation">
             <h2>The Foundation: 15 Years of High-Availability Systems</h2>
@@ -470,7 +469,7 @@
             <article class="tile">
                 <span class="tile-label">Open Source • Inference</span>
                 <h3 class="tile-title">Core Contributor to vLLM</h3>
-                <p class="tile-hook">🎯 Identified and diagnosed a <strong>"severe" logic failure</strong> in speculative decoding for DeepSeek-R1, enabling faster token generation across production deployments.</p>
+                <p class="tile-hook"> Identified and diagnosed a <strong>"severe" logic failure</strong> in speculative decoding for DeepSeek-R1, enabling faster token generation across production deployments.</p>
                 <div class="tile-section">
                     <div class="tile-section-label">Stack</div>
                     <div class="tile-tech">
@@ -490,7 +489,7 @@
             <article class="tile">
                 <span class="tile-label">Real-Time • Fraud Detection</span>
                 <h3 class="tile-title">Distributed Agentic Runtime</h3>
-                <p class="tile-hook">⚡ Built a low-latency (<strong>&lt;200ms p99</strong>) event-driven cognitive system handling real-time transaction streams with supervisor agent pattern.</p>
+                <p class="tile-hook"> Built a low-latency (<strong>&lt;200ms p99</strong>) event-driven cognitive system handling real-time transaction streams with supervisor agent pattern.</p>
                 <div class="tile-section">
                     <div class="tile-section-label">Stack</div>
                     <div class="tile-tech">
@@ -515,7 +514,7 @@
             <article class="tile">
                 <span class="tile-label">Cloud • Orchestration</span>
                 <h3 class="tile-title">Production-Grade LLM Serving</h3>
-                <p class="tile-hook">🚀 Engineered multi-model orchestration platform with <strong>GPU-aware scheduling</strong> and real-time observability across EKS clusters.</p>
+                <p class="tile-hook"> Engineered multi-model orchestration platform with <strong>GPU-aware scheduling</strong> and real-time observability across EKS clusters.</p>
                 <div class="tile-section">
                     <div class="tile-section-label">Stack</div>
                     <div class="tile-tech">
@@ -559,11 +558,7 @@
                     <a href="https://github.com/scalable-ml-systems/event-driven-cognitive-runtime">Event‑Driven Cognitive Runtime</a>
                     <p>Kafka + vLLM + multimodal inference</p>
                 </div>
-                <div class="project-item">
-                    <a href="https://github.com/scalable-ml-systems/mlops-platform-gpu-inference">GPU‑Accelerated MLOps Platform</a>
-                    <p>EKS + Triton + autoscaling</p>
-                </div>
-                <div class="project-item">
+                   <div class="project-item">
                     <a href="https://github.com/vllm-project/vllm/pull/34978">vLLM Contributions</a>
                     <p>DeepSeek‑R1 structured output + speculative decoding</p>
                 </div>
@@ -572,7 +567,7 @@
 
         <section class="section">
             <h2>Outside of Work</h2>
-            <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8;">I read research papers on AI and a bit of quantum computing to satisfy my curiosity, follow engineering blogs to get the scoop, and write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/" style="color: var(--accent-primary); text-decoration: none;">StackBytes</a>. I travel for fun and to spend time with my family.</p>
+            <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8;">I read research papers on AI, follow engineering blogs to get the scoop, and write about AI infrastructure on <a href="https://stackbytes.beehiiv.com/" style="color: var(--accent-primary); text-decoration: none;">StackBytes</a>. I travel for fun and to spend time with my family.</p>
         </section>
 
         <footer>
